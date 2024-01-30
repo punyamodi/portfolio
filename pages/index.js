@@ -24,6 +24,7 @@ import AdobeXd from "../components/icons/AdobeXd";
 import Supabase from "../components/icons/Supabase";
 import MongoDb from "../components/icons/MongoDb";
 import Express from "../components/icons/Express";
+import Python from "../components/icons/Python";
 // Project Card
 import ProjectCard from "../components/ProjectCard";
 import GitHubProfile from "../components/icons/GitHubProfile";
@@ -222,7 +223,7 @@ export default function Home({ publications }) {
         }`}
       >
         <Head>
-          <title>Daniel Cranney | Frontend Developer & Designer</title>
+          <title>Shrikant | DevOps</title>
           <meta
             name="description"
             content="The portfolio of frontend developer and designer, Daniel Cranney"
@@ -423,7 +424,7 @@ export default function Home({ publications }) {
             {/* Text */}
             <div className="flex items-center ml-4">
               <p className="text-lg font-semibold font-display tracking-tight dark:text-white text-darker mb-0 transition-all duration-150 ease-in-out">
-                Daniel Cranney
+                Shrikant
               </p>
             </div>
             {/* Nav */}
@@ -576,7 +577,7 @@ export default function Home({ publications }) {
                 </span>
 
                 <h1 className="mb-4 text-5xl md:text-7xl dark:text-white text-dark">
-                  Daniel Cranney
+                  Shrikant
                 </h1>
                 <h2 className="mb-4 text-3xl md:text-4xl dark:text-light text-mid">
                   <ReactTypingEffect
@@ -585,16 +586,16 @@ export default function Home({ publications }) {
                     eraseSpeed={30}
                     eraseDelay={1500}
                     text={[
-                      `Frontend Developer`,
-                      `Designer`,
-                      `Teacher`,
-                      `Cat Dad`,
+                      `Computer Science Engineer`,
+                      `DevOps Enthusiast`,
+                      `Passionate Software Developer`,
+                      `Always Learning New Things`,
                     ]}
                   />
                 </h2>
-                <p className="w-4/5 text-xl md:w-full">
+                {/* <p className="w-4/5 text-xl md:w-full">
                   I design and build websites that look good, and work well.
-                </p>
+                </p> */}
                 <button
                   className="mt-4 btn-brand btn-lg group"
                   onClick={() => {
@@ -620,51 +621,40 @@ export default function Home({ publications }) {
               <div className="flex flex-col-reverse items-start w-full md:flex-row">
                 <div className="flex flex-col w-full md:pr-8 md:w-3/5">
                   <p className="text-lg">
-                    Hello! I&apos;m Dan and I&apos;m a frontend developer,
-                    designer and teacher from Bristol, England.
+                    Hello, I&apos;m Shrikant, a dynamic Computer Science graduate and enthusiastic software developer hailing from India. Armed with a Bachelor of Engineering in Computer Science from BMS Institute of Technology, I've cultivated a diverse skill set that spans various programming languages and cutting-edge technologies.
                   </p>
                   <p className="text-lg">
-                    After building my first website aged thirteen, I knew I
-                    wanted to work with computers and technology, and I&apos;ve
-                    never looked back.
+                  Currently, I am making strides in the realm of DevOps as an Intern at Sigmoid Company. In this role, I am deeply immersed in the world of automation and optimization, utilizing tools such as Docker, Kubernetes, Linux, Shell Scripting, Jenkins, Terraform, Git, GitHub, and Github Actions. My primary focus is to streamline the software development lifecycle, ensuring efficiency and reliability.
                   </p>
                   <p className="text-lg">
-                    After graduating University with a Media degree, I began
-                    freelancing as a designer, creating graphics, video content
-                    and websites for small businesses, using content management
-                    systems like Wordpress, Joomla and Squarespace.
+                  Feel free to explore my portfolio for a closer look at my journey and the projects I've been involved in. For those interested in the technical details of my work and professional journey, you can download my resume from the button below.
                   </p>
                   <p className="text-lg">
-                    In recent years, I&apos;ve been focused on programming,
-                    building a solid frontend stack and creating exciting
-                    projects that solve real-world problems.
+                  Connect with me through email or follow me on Twitter, LinkedIn, and GitHub. I'm always open to discussions, collaborations, and new opportunities.
                   </p>
                   <p className="text-lg">
-                    Alongside my design and development work, I run a BA Media
-                    Production degree course and a corporate video production
-                    company called{" "}
-                    <a
-                      href="http://www.wearespotlight.co.uk"
-                      target="_blank"
-                      className="underline-link"
-                      rel="noreferrer"
-                    >
-                      Spotlight Media
-                    </a>
-                    , so I like to keep busy!
+                  Thank you for visiting my website. I look forward to the prospect of connecting with fellow enthusiasts, developers, and potential collaborators. Let's build something great together!
                   </p>
-                  <p className="text-lg">
+                  {/* <p className="text-lg">
                     Take a look at my work below to see what I&apos;m working
                     on, and get in touch if you&apos;d like to work together!
-                  </p>
+                  </p> */}
+  <a
+  className="mt-4 btn-brand btn-lg group"
+  href='/Shrikant_Resume.pdf'
+  download="Shrikant_Resume.pdf"
+>
+  Download Resume
+</a>
+
                 </div>
                 <div className="flex w-full h-full mb-4 md:pl-8 md:w-2/5 md:mb-0">
                   <Image
-                    src="/headshot-with-frame-2.jpg"
+                    src="/Portfolio_Photo-removebg-preview.png"
                     className="overflow-hidden rounded-md"
                     width={880}
                     height={880}
-                    alt={"Daniel Cranney headshot"}
+                    alt={"Shrikant K headshot"}
                   />
                 </div>
               </div>
@@ -714,10 +704,10 @@ export default function Home({ publications }) {
                 fixedHeight={"h-28"}
               />
 
-              {/* Tailwind */}
+              {/* Python */}
               <Icon
-                IconType={Tailwind}
-                title="Tailwind"
+                IconType={Python}
+                title="Python"
                 width={"w-16"}
                 height={"h-16"}
                 padding={"p-0"}
